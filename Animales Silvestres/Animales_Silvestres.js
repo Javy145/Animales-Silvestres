@@ -12,6 +12,6 @@ $(function() {
 });
 
 
-var shiftWindow = function() { scrollBy(0, -50) };
+var shiftWindow = function() { scrollBy(0, -55) };
 if (location.hash) shiftWindow();
 window.addEventListener("hashchange", shiftWindow);
